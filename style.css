@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff ;
+  background-image:  radial-gradient(#95938e 2px, transparent 2px), radial-gradient(#95938e 2px, #ffffff 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+  /* code overgenomen van Jim Raptis 
+  URL: https://www.magicpattern.design/tools/css-backgrounds (laatst geraadpleegd op 27 april 2026) */
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow: visible;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+.imglogo {
+  width: 120px;
+  height: auto;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  display: flex;
+  color: white;
+  background-color: #fbbc0d;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a.icon {
+  background: #fbbc0d;
+  display: block;
+  position: absolute;
+  right: 23px;
+  top: 25px;
+}
+
+.topnav a:hover {
+  background-color: #fbbc0d;
+  color: white;
+}
+
+/* ^code gebaseerd op 
+URL: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp (laatst geraadpleegd op 03 mei 2026)*/
+
+.frontpage {
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+.frontimg {
+  width: 150px;
+  height: auto;
+}
+
+h2 {
+  font-family: "Sedgwick Ave Display", cursive;
+  overflow: visible;
+  font-size: 15vw;
+  font-weight: 150;
+  color: #fbbc0d;
+  margin: 0px;
+}
+
+p {
+  display: block;
+  overflow: hidden;
+  margin: 15px;
+  font-size: 20px;
+
+}
+
+/*p1 begin*/
+
+.introductie {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+.mascotte {
+  width: 120px;
+  height: auto;
+}
+
+#moi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#moi .right {
+  display: flex;
+  order: 2;
+}
+
+.DA {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+#vId {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sit {
+  width: 120px;
+  height: auto;
+}
+
+.inspo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+#art {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #art .takano, .nara, .lang {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+
+
+    .painting1, .painting2, .painting3 {
+      width: 40vw;
+      height: auto;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 10px;
+    }    
+
+
+/* P2 begin*/
+
+.art {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;  
+}
+
+#peinture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#peinture .left {
+  order: 2;
+}
+
+.paint {
+  width: 120px;
+  height: auto;
+}
+
+.craft {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+#crochet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crch {
+  width: 150px;
+  height: auto;
+}
+
+.gal {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-style: dotted;
+  border-color: #fbbc0d;
+  border-radius: 20px;
+  border-width: 5px;  
+}   
+
+#img .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10, .i11, .i12, .i13 {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.i2 {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+    
+#images {
+  column-count: 2;
+  overflow: auto;
+  gap: 1rem ;
+  float: left;
+  width: 100%;
+  margin: 15px;
+  height: auto;
+}
+
+/* ^code gebaseerd op het artikel 'Masonry layout is now grid lanes' van Sunkanmi Fafowora
+ URL: https://css-tricks.com/masonry-layout-is-now-grid-lanes/ (laatst geraadpleegd op 03 mei 2025)*/
+
+
+
+
+@media (min-width: 501px) {
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding: 10px;
+      margin: 10px;
+      justify-content: center ;
+      align-items: center;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    } 
+
+   .imglogo {
+    width: 150px;
+    height: auto;
+   }
+
+    .logo {
+      padding: 15px;
+      margin-right: 10px;
+    }
+
+    .topnav a {
+      display: inline-block;
+      color: #fbbc0d;
+      background-color: transparent;
+      border-style: dotted;
+      border-radius: 20px;
+      border-width: 4px;
+      transition: background-color 0.7s;
+      font-size: 20px;
+    } 
+
+    .topnav a:hover {
+      background-color: #fbbc0d;
+      color: white;
+      transform: translateY(-10px);
+    }
+
+    .topnav #myLinks {
+      display: inline-block !important;
+    }
+
+    .topnav a.icon {
+      display: none;
+    }
+
+    .frontpage {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+    
+    .frontimg {
+      width: 200px;
+      height: auto;
+    }
+
+
+    h2 {
+      display: block;
+      margin: 20px;
+      font-size: 10vw;
+    }
+
+
+
+    /*p1 begin*/
+
+     .introductie {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+
+    #moi {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #moi .left {
+      flex: 2;
+      margin: 10px;
+      padding: 10px;
+      order: 1;
+    }
+
+    #moi .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+      order: 2;
+    }
+    
+    .mascotte {
+      width: 160px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+
+    .DA {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+
+    #vId {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #vId .right {
+      flex: 2;
+      margin: 10px;
+      padding: 10px;
+      order: 2;
+    }
+
+    #vId .left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .sit {
+      width: 150px;
+      height: auto;
+    }
+
+    .inspo {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+
+    
+#art {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+
+    #art .takano, .nara, .lang {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+
+
+    .painting1, .painting2, .painting3 {
+      width: 25vw;
+      height: auto;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 10px;
+    }    
+
+    
+
+    /* p2 begin */
+
+    .art {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+
+    .craft {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+
+     #peinture {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #peinture .right {
+      flex: 2;
+      margin: 10px;
+      padding: 10px;
+      order: 2;
+    }
+
+    #peinture .left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+      order: 1;
+    }
+
+    .paint {
+      width: 150px;
+      height: auto;
+    }
+
+    #crochet {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #crochet .left {
+      flex: 2;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    #crochet .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .crch {
+      width: 180px;
+      height: auto;
+    }
+
+
+
+    .gal {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: #fbbc0d;
+      border-radius: 20px;
+    }
+
+    #images {
+      column-count: 3;
+      overflow: auto;
+      gap: 1rem ;
+      float: left;
+      width: 100%;
+      margin: 15px;
+      height: auto;
+    }
+}
